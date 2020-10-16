@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculadora de tinta</title>
+  </head>
+  <body>
+    <section class="heading">  
+        <img class="heading-img" src="./img/janela.jpg" alt="imagem janela azul em uma parede cinza e amarelo">
+         </section>
+    <section class="heading-form">
+    <form name="imcForm" id="imcForm" action="#">
+        <h1 class="heading-title"> &#127912 Calculadora de tintas &#127912</h1>  
+        <h2 class=heading-subtitle>Calcule a quantidade de tinta que ira usar</h2>
+        <div class="heading-box">
+      <h5> Adicione as áreas a serem pintadas
+      <br />
+        <input
+          type="text" id="altura da parede" name="altura" min="1" max="15" placeholder="Altura (M)"
+        />
+      </h5>
+        <input type="text" id="largura da parede" name="largura" min="1" placeholder=" Largura (M)" />
+    </div>
+    <div class="heading-box">   
+      <h5> Adicione as áreas sem pintura 
+        <br />
+        <input type="number" id="portas" name="portas" min="0" placeholder="Quantidade de portas"/>
+      </h5>
+        <input type="number" id="janelas" name="janelas" min="0" placeholder="Quantidade de janelas" /> 
+    </div>
+      <h5>
+        <input
+          name="Enviar"
+          type="submit"
+          value="Calcular"
+          onclick="calcula_tinta()"
+        />
+      </h5>
+    </form>
+  </section>
+  </body>
+</html>
+<script src="./calculadora.js"></script>

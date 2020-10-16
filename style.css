@@ -1,0 +1,54 @@
+body {
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  font-family: "Roboto Slab", serif;
+}
+
+.heading {
+  height: 100px;
+}
+
+.heading-img {
+  width: 100%;
+  height: 750px;
+}
+
+.heading-form {
+  text-align: center;
+  margin-left: 216px;
+}
+
+h1,
+h2,
+h5 {
+  font-size: 34px;
+  color: #1a3669;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+h5 {
+  font-size: 18px;
+  padding: 20px;
+}
+
+.heading-box {
+  border-width: medium;
+  border-style: solid;
+  border-color: #1a3669;
+  padding: 20px 8px 40px;
+  display: inline-block;
+  border-radius: 4px;
+  margin: 8px;
+}
+input {
+  padding: 16px 40px 18px 48px;
+  font-size: 16px;
+  border-width: medium;
+  border-style: solid;
+  border-color: #1a3669;
+}
