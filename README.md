@@ -6,3 +6,5 @@ Este projeto foi desenvolvido com JavaScript Vanilla ,Html e Css.
 Não foi utilizado nenhuma framework , neste caso , para abrir o projeto não será necessário instalar dependencias. 
 
 Após efetar o clone do projeto , o index.html já podera ser aberto no navegador e a calculadora de tintas já devera estar funcionando ! 
+
+O conteudo tambem pode ser verificado em : https://mi2507.github.io/calculadora-tintas/.
